@@ -1,5 +1,4 @@
 .container {
-  background-color: pink;
   border: 1px solid black;
   height: 200px;
 }
@@ -11,13 +10,19 @@ p {
 
 [class*="col-"] {
   border: 1px solid black;
+  background-color: pink;
 }
 
 .padding {
-  padding: 10px;
+  padding: 5px;
 }
 
 .white {
   border-color: white;
   background-color: coral;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
