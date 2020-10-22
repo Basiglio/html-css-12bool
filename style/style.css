@@ -1,0 +1,23 @@
+.container {
+  background-color: pink;
+  border: 1px solid black;
+  height: 200px;
+}
+
+p {
+  text-align: center;
+  line-height: 200px;;
+}
+
+[class*="col-"] {
+  border: 1px solid black;
+}
+
+.padding {
+  padding: 10px;
+}
+
+.white {
+  border-color: white;
+  background-color: coral;
+}
